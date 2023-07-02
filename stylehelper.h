@@ -13,7 +13,6 @@ public:
     static QString getActiveChooseButtonsStyle();
     static QString getGameButtonsStyle();
     static QString getActiveGameButtonsStyle();
-    static QString getMainWidgetStyle();
 };
 
 #endif // STYLEHELPER_H

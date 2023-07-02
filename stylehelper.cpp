@@ -2,11 +2,12 @@
 
 StyleHelper::StyleHelper()
 {
-
+    // StyleHelper
 }
 
 QString StyleHelper::getStartButtonsStyle()
 {
+    // getStartButtonsStyle
     return "QPushButton{"
             "color:rgb(255, 255, 255);"
             "font-size:25px;"
@@ -54,9 +55,4 @@ QString StyleHelper::getActiveGameButtonsStyle()
             "font-size:100px;"
             "border-image: url(:/new/prefix1/button_03_unpressed_pink.png);"
             "}";
-}
-
-QString StyleHelper::getMainWidgetStyle()
-{
-    return "QWidget{ background-image: url(:/new/prefix1/sky.png);}";
 }

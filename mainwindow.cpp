@@ -38,6 +38,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::paintEvent(QPaintEvent *event)
 {
+    //paintEvent
+
     QStyleOption opt;
     opt.initFrom(this);
     QPainter p(this);
@@ -47,7 +49,8 @@ void MainWindow::paintEvent(QPaintEvent *event)
 
 void MainWindow::setDefaultCondition()
 {
-    setStyleSheet(StyleHelper::getMainWidgetStyle());
+    // setDefaultCondition
+    setStyleSheet("QWidget{ background-image: url(:/new/prefix1/sky.png);}");
     ui->pushButton_start->setStyleSheet(StyleHelper::getStartButtonsStyle());
     ui->pushButton_about->setStyleSheet(StyleHelper::getStartButtonsStyle());
     ui->pushButton_X->setStyleSheet(StyleHelper::getChooseButtonsStyle());
