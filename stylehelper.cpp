@@ -2,12 +2,11 @@
 
 StyleHelper::StyleHelper()
 {
-    // StyleHelper
+
 }
 
 QString StyleHelper::getStartButtonsStyle()
 {
-    // getStartButtonsStyle
     return "QPushButton{"
             "color:rgb(255, 255, 255);"
             "font-size:25px;"
