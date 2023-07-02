@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Lable.png</file>
+        <file>icon.png</file>
+        <file>sky.png</file>
+        <file>button_01_pressed.png</file>
+        <file>button_01_unpressed.png</file>
+        <file>button_02_pressed_orange.png</file>
+        <file>button_02_unpressed_orange.png</file>
+        <file>button_03_pressed_pink.png</file>
+        <file>button_03_unpressed_pink.png</file>
+    </qresource>
+</RCC>
